@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Restuarant-Reservation-Using-MERN/", // must match your repo name
+  base: '/Restuarant-Reservation-Using-MERN/',
 })
