@@ -4,9 +4,10 @@ const Menu = () => {
   const base = "/Restuarant-Reservation-Using-MERN/";
 
 {data.map(item => (
-  <img src={`${base}${item.image}`} alt={item.name} />
+  <img key={item.name} src={`${base}${item.image}`} alt={item.name} />
 ))}
   return (
+    
     <>
       <section className='menu' id='Menu'>
         <div className="container">
