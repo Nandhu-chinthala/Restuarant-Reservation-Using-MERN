@@ -29,13 +29,13 @@
             },
             {
                 "id": 2,
-                "image": "./dinner2.png",
+                "image": "dinner2.png",
                 "title": "Hyderabadi Mutton Biryani",
                 "category": "Dinner"
             },
             {
                 "id": 3,
-                "image": "./breakfast1.png",
+                "image": "breakfast1.png",
                 "title": "Ghee Karam Dosa",
                 "category": "Breakfast"
             },

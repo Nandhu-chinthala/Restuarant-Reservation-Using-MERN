@@ -1,6 +1,11 @@
 import React from 'react';
 import {data} from '../restApi.json'
 const Menu = () => {
+  const base = "/Restuarant-Reservation-Using-MERN/";
+
+{data.map(item => (
+  <img src={`${base}${item.image}`} alt={item.name} />
+))}
   return (
     <>
       <section className='menu' id='Menu'>
