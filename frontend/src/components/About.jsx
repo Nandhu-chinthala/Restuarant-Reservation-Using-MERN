@@ -13,20 +13,13 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident possimus optio adipisci dolores impedit illum iusto
-              perferendis, laudantium quod accusamus consequuntur consectetur,
-              tempore nulla error iure reiciendis dolorem assumenda.
-              Necessitatibus fugit asperiores totam rem esse exercitationem
-              iusto ipsum qui dolore ex, accusantium repellat mollitia
-              repellendus.
+            Welcome to DineSphere where flavors meet tradition! 🌿✨
+We bring you the best of North Indian, South Indian, and global flavors, all in one place. Whether you're craving spicy curries, sizzling tandoori, or classic dosas, we’ve got you covered!
+Reserve your table online in just a few clicks and enjoy a delicious dining experience with great food, cozy ambiance, and top-notch service.
+Book now & taste the magic! 🍛🔥
+
             </p>
-            <Link to={"/"}>
-              Explore Menu{" "}
-              <span>
-                <HiOutlineArrowRight />
-              </span>
-            </Link>
+            <Link  to="/exploreMenu"> Explore Menu<span> <HiOutlineArrowRight /> </span></Link>
           </div>
           <div className="banner">
             <img src="about.png" alt="about" />

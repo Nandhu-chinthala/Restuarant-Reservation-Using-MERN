@@ -1,10 +1,9 @@
-import React from 'react';
-import {data} from '../restApi.json'
-const Menu = () => {
+import React from 'react'
+
+const ExploreMenu = () => {
   return (
-    <>
-      <section className='menu' id='Menu'>
-        <div className="container">
+    <div>
+         <div className="container">
             <div className="heading_section">
                 <h1 className="heading">POPULAR DISHES</h1>
                 <p>Our menu brings together the best flavors from India, Asia, Continental, and Mediterranean cuisines. Enjoy everything from rich curries and sizzling tandoori to pasta, dumplings, and kebabs. Satisfy your cravings with a perfect blend of spices, freshness, and irresistible taste!"</p>
@@ -21,9 +20,9 @@ const Menu = () => {
                 }   
             </div>
         </div>
-      </section>
-    </>
+      
+    </div>
   )
 }
 
-export default Menu;
+export default ExploreMenu;

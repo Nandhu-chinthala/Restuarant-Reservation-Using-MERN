@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/reservation/send",
+        "http://localhost:5173/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
@@ -36,7 +36,7 @@ const Reservation = () => {
       setDate("");
       navigate("/success");
     } catch (error) {
-      toast.error(error.response.data.message);
+      toast.error(error);
     }
   };
 
@@ -95,7 +95,8 @@ const Reservation = () => {
                 />
               </div>
               <button type="submit" onClick={handleReservation}>
-                RESERVE NOW{" "}
+                RESERVE NOW{""}
+  
                 <span>
                   <HiOutlineArrowNarrowRight />
                 </span>
